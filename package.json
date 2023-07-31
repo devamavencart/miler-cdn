@@ -1,0 +1,15 @@
+{
+  "name": "content-delivery-network",
+  "version": "1.0.0",
+  "description": "miller-cdn-script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "milr-cdn"
+  ],
+  "bin": "src/bin.js",
+  "author": "deva_p",
+  "license": "MIT"
+}
