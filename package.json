@@ -4,12 +4,24 @@
   "description": "miller-cdn-script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fastify": "nodemon api.js",
+    "webpack": "webpack --config webpack.config.js"
   },
   "keywords": [
     "milr-cdn"
   ],
   "bin": "src/bin.js",
   "author": "deva_p",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fastify": "^3.21.5",
+    "fastify-cors": "^6.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }
