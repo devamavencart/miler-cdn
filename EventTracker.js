@@ -20,7 +20,9 @@
 
 
     document.querySelectorAll('button').forEach((btn) => {
+      console.log("btn 0 :", btn.textContent.trim().replace(/\s+/g, '_'));
       if (btn.textContent.trim().replace(/\s+/g, '_') === 'New_Update:_Milir_UI_Dashboard_PRO_A_new_update_for_your_downloaded_item_is_available!') {
+        console.log("btn 1 :", btn.textContent.trim().replace(/\s+/g, '_'));
       btn.addEventListener('click', function() {
         trackEvent('ButtonClicked_1', 'Button', 'New Update: Milir UI Dashboard PRO A new update for your downloaded item is available!', 'localhost', '/dashboard/default');
       });
